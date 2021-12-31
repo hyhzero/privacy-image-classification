@@ -28,6 +28,7 @@ python extract_featuremap.py
 With the extracted features, the models can be trained respectively.
 
 ```sh
+python resnet.py
 python mldrnet.py
 python bilstm.py
 python mlms.py
