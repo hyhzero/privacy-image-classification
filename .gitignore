@@ -1,8 +1,3 @@
-*.pkl
-*.pth
-*.xml
-*.png
-*.jpg
-0*
-*.pyc
-
+feature
+model
+__pycache__

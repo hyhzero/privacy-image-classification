@@ -20,10 +20,7 @@ Please install the following packages
 To simplify the training process, the features are first extracted with pretrained resnet18. 
 
 ```sh
-python3 extract_featuremaps.py
-python3 extract_branch_feature.py
-python3 databuilder.py
-python3 multi_level_scale_data.py
+python extract_featuremap.py
 ```
 
 ## Train Models
@@ -31,10 +28,9 @@ python3 multi_level_scale_data.py
 With the extracted features, the models can be trained respectively.
 
 ```sh
-python3 baseline_resnet18.py
-python3 baseline_mldrnet.py
-python3 baseline_cnnrnn.py
-python3 privacyMSML.py
-python3 privacyMLMS.py
+python mldrnet.py
+python bilstm.py
+python mlms.py
+python msml.py
 ```
 
